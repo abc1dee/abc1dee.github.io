@@ -5,6 +5,11 @@ Welcome to Abcdee's Hub
 
 **Note!!:** The scroll animation has been disabled for mobile view due to mobile devices not reliably picking up the scroll. The animation works seamlessly on regular desktops, providing an enhanced user experience.
 
+## Background Music
+
+**Note!!:** There is background music on the website set to autoplay and loop. However, controls for pause, play, and volume have been intentionally removed. There might be a brief delay or loading appearance before it starts playing, and it may require interaction with buttons or links to initiate playback. This has been optimized for a specific user experience.
+
+
 ## Overview
 
 This repository contains the code for my awesome website that accomplishes the following:
