@@ -368,6 +368,18 @@ h1.smd{
 
 #about {
   position: relative;
+  
+}
+.skrol{
+  opacity: 0;
+    transform: translateX(-300px);
+    transition: all 0.7s ease-out;
+    transition-delay: 0.4s;
+}
+
+.scroll-animation {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .about-containers {
@@ -541,7 +553,9 @@ img.round-image {
 
 /* FOOTER SECTION */
 
-
+.backtotop{
+  color: black;
+}
 
 
 /* FOOTER SECTION */
