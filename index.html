@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
+    <audio autoplay loop>
+      <source src="./assets/Makasarili Malambing.mp3" type="audio/mp3">
+      
+    </audio>
     <nav id="desktop-nav">
       
       <div class="waviy">
@@ -72,14 +76,21 @@
         <img src="./assets/profile-pic-modified.png" alt="Starboy Deo profile picture" />
       </div>
       <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
+        <p class="section__text__hello">Hello, I'm</p>
         
-        <h1 class="title">Starboy Deo</h1>
+        <h1 class="title1">Starboy Deo</h1>
         
         <p class="section__text__p2">An Aspiring</p>
+
+        
+        <h1 class="smd">
+          <a href="" class="typewrite" data-period="2000" data-type='[ "Full-Stack Developer", "Web Developer", "E-sports Pro Player" ]'>
+            <span class="wrap"></span>
+          </a>
+        </h1>
         
         
-        <div class="btn-container">
+        <div class="btn-container1">
           <button
             class="btn btn-color-2"
             onclick="window.open('./assets/resume-example.pdf')"
@@ -125,8 +136,12 @@
                 alt="Experience icon"
                 class="icon"
               />
-              <h3>Experience</h3>
-              <p>2+ years <br />Frontend Development</p>
+              <h3>Notable Achievements</h3>
+              <ul class="achievements">
+                <li>12th IT Skills Olympics Participant</li>
+                <li>2016 National Mathscore EduFighter contender</li>
+                <li>2017 Metrobank-MTAP-DepEd Math Challenge (MMC) Participant</li>
+              </ul>
             </div>
             <div class="details-container">
               <img
@@ -190,7 +205,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>JavaScript</h3>
+                  <h3>Javascript</h3>
                   <p>Basic</p>
                 </div>
               </article>
@@ -352,6 +367,7 @@
       </nav>
       <p>Copyright &#169; 2024 Starboy Deo. All Rights Reserved.</p>
     </footer>
+    <script src="animation.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

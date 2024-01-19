@@ -145,6 +145,15 @@ a:hover {
   transition: all 0.3 ease-in-out;
 }
 
+.achievements,.achievements li{
+  text-align: left;
+  padding-left: 30px;
+}
+
+.menu-links a:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
 .menu-links li {
   list-style: none;
 }
@@ -224,18 +233,44 @@ section {
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
-  text-align: center;
+  
+}
+
+.title1 {
+  font-size: 5rem;
 }
 
 .title {
   font-size: 3rem;
   text-align: center;
+  
 }
+.wrap{
+  color:black;
+  
+}
+h1.smd{
+  
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 3em;
+  
+}
+
+
+
+
 
 #socials-container {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   margin-top: 1rem;
+  gap: 1rem;
+}
+
+.btn-container1 {
+  justify-content: left;
+  display: flex;
+  
   gap: 1rem;
 }
 
@@ -249,8 +284,8 @@ section {
 /* BUTTONS */
 
 .btn-container {
-  display: flex;
-  justify-content: center;
+  display: center;
+  
   gap: 1rem;
 }
 

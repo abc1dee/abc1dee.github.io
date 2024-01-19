@@ -64,9 +64,14 @@
       margin-bottom: 2rem;
     }
     .about-containers,
-    .contact-info-upper-container,
-    .btn-container {
+    .contact-info-upper-container
+     {
       flex-wrap: wrap;
+    }
+
+    .btn-container{
+      flex-wrap: wrap;
+      justify-content: center;
     }
     .contact-info-container {
       margin: 0;
@@ -91,12 +96,49 @@
     }
     .section__text__p2 {
       font-size: 1.25rem;
+      text-align: center;
       
     }
+
+    .section__text__hello {
+      text-align: center;
+    }
+
     .title {
       font-size: 2rem;
+      
     }
+
+    .title1 {
+      font-size: 2rem;
+      text-align: center;
+      
+    }
+
     .text-container {
       text-align: justify;
     }
+
+    #socials-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+      gap: 1rem;
+    }
+
+    .btn-container1 {
+      justify-content: center;
+      display: flex;
+      
+      gap: 1rem;
+    }
+
+    h1.smd{
+      text-align: center;
+      
+      font-size: 2em;
+      
+    }
+
+    
   }
