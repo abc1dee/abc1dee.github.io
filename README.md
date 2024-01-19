@@ -10,7 +10,10 @@ Welcome to Abcdee's Hub
 This repository contains the code for my awesome website that accomplishes the following:
 
 - **Criteria Achievement:** Discusses how each criteria was accomplished.
-- **Class Concepts:** In almost all of the code, you can see the concepts discussed in the class, including Flexbox Froggy, HTML, and JavaScript.
+- **Class Concepts:** 
+    - **HTML:** Building the structure of the website.
+    - **CSS Styles and Media Query:** Applying Flex designs, various selectors, and responsive layouts.
+    - **JavaScript:** Utilized for the scrolling animation and implementing a hamburger icon exclusively for smaller devices.
 - **Design Inspiration:** The design is inspired by my preference for minimalism, presenting a classic black and white look.
 - **Content Creation:** The approach to content creation was spontaneous, capturing thoughts as they came to mind.
 - **Creativity:** The website embraces creativity with animations and a simple yet impactful design.
@@ -19,14 +22,13 @@ This repository contains the code for my awesome website that accomplishes the f
 
 The website is deployed using Codespace, Visual Studio Code, and GitHub.
 
-## Learning Insights
+## Learning Insights 
 
 I easily learned and adapted to how markup languages work. Having experience with other languages before, it wasn't as challenging, and I found the concepts to be intuitive and enjoyable.
 
 ## Challenges Faced
 
 One notable challenge I faced was in managing my time effectively. Balancing coding with my esports tournament commitments demanded careful planning, but it was a valuable experience in time management.
-
 
 ## Future Improvements
 
