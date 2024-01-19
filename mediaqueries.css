@@ -45,6 +45,7 @@
     .about-containers {
       margin-top: 0;
     }
+    
   }
   
   @media screen and (max-width: 600px) {
@@ -146,5 +147,18 @@
       
     }
 
+    .skrol{
+      opacity: 1;
+        transform: none;
+        transition: none;
+        transition-delay: none;
+    }
+    
+    .scroll-animation {
+      opacity: 1;
+      transform: none;
+    }
+
+   
     
   }
